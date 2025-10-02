@@ -1,3 +1,11 @@
+import os
+
+# If models file doesn't exist, train models
+if not os.path.exists('diabetes_models.pkl'):
+    st.warning("Training models... This will take 30 seconds on first deployment.")
+    # Add code here to train and save models
+    # (copy the training code from your notebook)
+
 import streamlit as st
 import pickle
 import numpy as np

@@ -11,10 +11,7 @@ A comprehensive machine learning project for predicting diabetes risk using the 
 ![Model Comparison](screenshots/comparison.png)
 
 ### Make a Prediction
-![Prediction](screenshots/prediction.png)
-
-### Risk Visualization
-![Risk](screenshots/risk.png)
+![Prediction](screenshots/Prediction.png)
 
 ### Model Comparison Results
 ![Results](screenshots/results.png)

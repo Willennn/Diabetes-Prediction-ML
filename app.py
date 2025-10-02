@@ -260,6 +260,7 @@ with tab3:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray;'>
-    <p>Machine Learning Portfolio Project | Data: PIMA Indians Diabetes Database</p>
+    <p>Developed by Willen CHIBOUT | Machine Learning Portfolio Project</p>
+    <p>Data: PIMA Indians Diabetes Database</p>
 </div>
 """, unsafe_allow_html=True)

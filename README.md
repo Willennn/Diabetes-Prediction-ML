@@ -6,14 +6,10 @@ A comprehensive machine learning project for predicting diabetes risk using the 
 
 
 ### Model Comparison Dashboard
-![Model Comparison](screenshots/comparison.png)
-
-
+![Model Comparison](screenshots/comparison.png)  
 
 ### Make a Prediction
-![Prediction](screenshots/Prediction.png)
-
-
+![Prediction](screenshots/Prediction.png)  
 
 ### Model Comparison Results
 ![Results](screenshots/results.png)
@@ -74,7 +70,12 @@ This project started as a tutorial implementation and was significantly expanded
 - **Environment:** Jupyter Notebook
 
 ## 📁 Project Structure
-diabetes-prediction/
+diabetes-prediction-ml/
+│
+├── screenshots/
+│   ├── comparison.png
+│   ├── Prediction.png
+│   └── results.png
 │
 ├── Diabetes_Prediction.ipynb    # Main analysis notebook
 ├── app.py                        # Streamlit web application

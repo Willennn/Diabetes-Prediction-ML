@@ -2,6 +2,10 @@
 
 A comprehensive machine learning project for predicting diabetes risk using the PIMA Indians Diabetes Database. This project demonstrates the complete ML workflow: from data cleaning and exploratory analysis to model comparison and deployment.
 
+
+🔗 **[Live Demo](https://diabetes-prediction-ml-wchibout.streamlit.app/)** | 📊 [View Code](https://github.com/Willennn/Diabetes-Prediction-ML)
+
+
 ## 📸 Application Screenshots
 
 

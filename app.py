@@ -200,6 +200,14 @@ with tab3:
     st.markdown("""
     ### Project Overview
     
+    **Based on tutorial by Siddhardhan:**
+    - **Video:** "Project 2: Diabetes Prediction using Machine Learning with Python | End To End Python ML Project"
+    - **Link:** [Watch on YouTube](https://www.youtube.com/watch?v=xUE7SjVx9bQ&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6&index=2)
+    
+    The original tutorial used only SVM and didn't address data quality issues. I expanded it significantly with data cleaning, 5 model comparison, and this interactive web app.
+    
+    ---
+    
     This diabetes prediction system was developed as a comprehensive machine learning project,
     starting from a basic tutorial and expanding it with advanced techniques.
     

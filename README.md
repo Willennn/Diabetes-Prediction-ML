@@ -2,7 +2,24 @@
 
 A comprehensive machine learning project for predicting diabetes risk using the PIMA Indians Diabetes Database. This project demonstrates the complete ML workflow: from data cleaning and exploratory analysis to model comparison and deployment.
 
-![Project Demo](screenshot.png)
+## 📸 Application Screenshots
+
+<details>
+<summary>Click to expand screenshots</summary>
+
+### Model Comparison Dashboard
+![Model Comparison](screenshots/comparison.png)
+
+### Make a Prediction
+![Prediction](screenshots/prediction.png)
+
+### Risk Visualization
+![Risk](screenshots/risk.png)
+
+### Model Comparison Results
+![Results](screenshots/results.png)
+
+</details>
 *Interactive Streamlit application for diabetes risk prediction*
 
 ## 🎯 Project Overview

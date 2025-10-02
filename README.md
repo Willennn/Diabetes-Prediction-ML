@@ -240,17 +240,19 @@ Features:
 This is a personal learning project, but feedback and suggestions are welcome! Feel free to:
 - Open issues for bugs or improvements
 - Fork the repository for your own experiments
-- Share insights or alternative approaches
+- Share insights or alternative approaches  
 
 
 📧 Contact
+
 CHIBOUT Willen
+
 willen.chibout@gmail.com
 
-https://www.linkedin.com/in/willen-chibout/
+https://www.linkedin.com/in/willen-chibout/  
 
 
-
+  
 
 📄 License
 This project is open source and available under the MIT License.

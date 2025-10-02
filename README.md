@@ -4,8 +4,6 @@ A comprehensive machine learning project for predicting diabetes risk using the 
 
 ## 📸 Application Screenshots
 
-<details>
-<summary>Click to expand screenshots</summary>
 
 ### Model Comparison Dashboard
 ![Model Comparison](screenshots/comparison.png)
@@ -16,7 +14,6 @@ A comprehensive machine learning project for predicting diabetes risk using the 
 ### Model Comparison Results
 ![Results](screenshots/results.png)
 
-</details>
 *Interactive Streamlit application for diabetes risk prediction*
 
 ## 🎯 Project Overview

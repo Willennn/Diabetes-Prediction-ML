@@ -84,12 +84,14 @@ bashstreamlit run app.py
 The application will open in your browser at http://localhost:8501
 
 
-💡 Project Workflow
+## 💡 Project Workflow
+
 1. Data Collection & Exploration
 
 Loaded PIMA Indians Diabetes Database (768 patients, 8 features)
 Analyzed class distribution (65% non-diabetic, 35% diabetic)
 Identified feature correlations with diabetes outcome
+
 
 2. Data Quality Analysis
 
@@ -102,7 +104,6 @@ BMI: 11 zeros
 Skin Thickness: 227 zeros
 
 
-
 3. Data Cleaning
 
 Replaced zeros with NaN for impossible values
@@ -110,7 +111,6 @@ Implemented class-aware median imputation
 
 Preserved differences between diabetic and non-diabetic patients
 Better than global mean/median imputation
-
 
 
 4. Exploratory Data Analysis (EDA)
@@ -129,6 +129,7 @@ BMI second strongest predictor (0.29)
 Diabetic patients have 28% higher glucose on average
 Age and pregnancies also significant factors
 
+
 5. Model Development & Comparison
 
 Standardized features using StandardScaler
@@ -137,12 +138,14 @@ Trained 5 different algorithms
 Evaluated with multiple metrics (not just accuracy)
 Performed 5-fold cross-validation
 
+
 6. Evaluation with Medical Context
 
 Accuracy alone is insufficient for medical diagnosis
 Focused on Recall (Sensitivity): catching diabetic patients
 Analyzed confusion matrices to understand error types
 ROC-AUC curves for discrimination ability
+
 
 7. Deployment
 
@@ -159,6 +162,7 @@ Domain-specific metrics matter (recall > accuracy for medical)
 Model comparison reveals algorithm strengths/weaknesses
 Ensemble methods don't always guarantee improvement
 
+
 Professional Insights
 
 Dataset quality limits model performance more than algorithm choice
@@ -166,18 +170,22 @@ Being honest about limitations shows maturity
 Good documentation makes projects portfolio-ready
 Interactive demos make ML accessible to non-technical users
 
+
 What I Would Do Differently
 In a real medical project, I would:
 
-Collect more data (768 samples is small for ML)
-Add modern biomarkers (HbA1c, fasting insulin, lipid panels)
-Include detailed family history
-Use temporal data (monitoring over time)
-Collaborate with medical professionals for feature engineering
+- Collect more data (768 samples is small for ML)
+- Add modern biomarkers (HbA1c, fasting insulin, lipid panels)
+- Include detailed family history
+- Use temporal data (monitoring over time)
+- Collaborate with medical professionals for feature engineering
+
 
 ⚠️ Important Disclaimer
 This is an educational project demonstrating machine learning workflows. It is NOT intended for actual medical diagnosis. Always consult healthcare professionals for medical advice.
 The model's 56% recall means it misses 44% of diabetic patients, making it unsuitable for clinical use without significant improvements.
+
+
 📚 Dataset Information
 Source: PIMA Indians Diabetes Database
 Size: 768 patients
@@ -185,14 +193,14 @@ Features: 8 medical measurements
 Target: Binary classification (diabetic/non-diabetic)
 Features:
 
-Pregnancies: Number of pregnancies
-Glucose: Plasma glucose concentration
-BloodPressure: Diastolic blood pressure (mm Hg)
-SkinThickness: Triceps skin fold thickness (mm)
-Insulin: 2-Hour serum insulin (mu U/ml)
-BMI: Body mass index (weight in kg/(height in m)²)
-DiabetesPedigreeFunction: Diabetes pedigree function (genetic factor)
-Age: Age in years
+- Pregnancies: Number of pregnancies
+- Glucose: Plasma glucose concentration
+- BloodPressure: Diastolic blood pressure (mm Hg)
+- SkinThickness: Triceps skin fold thickness (mm)
+- Insulin: 2-Hour serum insulin (mu U/ml)
+- BMI: Body mass index (weight in kg/(height in m)²)
+- DiabetesPedigreeFunction: Diabetes pedigree function (genetic factor)
+- Age: Age in years
 
 🤝 Contributing
 This is a personal learning project, but feedback and suggestions are welcome! Feel free to:
@@ -202,16 +210,18 @@ Fork the repository for your own experiments
 Share insights or alternative approaches
 
 📧 Contact
-[Ton nom]
-[Ton email ou LinkedIn]
-[Ton GitHub]
+CHIBOUT Willen
+willen.chibout@gmail.com
+https://www.linkedin.com/in/willen-chibout/
+
+
 📄 License
 This project is open source and available under the MIT License.
 
 Note: This project was developed as part of my machine learning portfolio to demonstrate:
 
-End-to-end ML project workflow
-Data quality awareness and handling
-Medical domain considerations in ML
-Model comparison and selection
-ML deployment and communication
+- End-to-end ML project workflow
+- Data quality awareness and handling
+- Medical domain considerations in ML
+- Model comparison and selection
+- ML deployment and communication

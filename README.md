@@ -8,13 +8,18 @@ A comprehensive machine learning project for predicting diabetes risk using the 
 ### Model Comparison Dashboard
 ![Model Comparison](screenshots/comparison.png)  
 
+
+
 ### Make a Prediction
 ![Prediction](screenshots/Prediction.png)  
+
+
 
 ### Model Comparison Results
 ![Results](screenshots/results.png)
 
 *Interactive Streamlit application for diabetes risk prediction*
+
 
 ## 🎯 Project Overview
 
@@ -24,6 +29,7 @@ This project started as a tutorial implementation and was significantly expanded
 - Comparison of 5 different ML algorithms
 - Focus on medical-relevant metrics (Recall over Accuracy)
 - Interactive web application for model deployment
+
 
 ## 📊 Key Findings
 
@@ -43,6 +49,7 @@ This project started as a tutorial implementation and was significantly expanded
 - Improved detection of diabetic patients by 4%
 - **Key insight:** Dataset size and quality are the main limitations
 
+
 ## 📈 Model Performance Comparison
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC |
@@ -54,6 +61,7 @@ This project started as a tutorial implementation and was significantly expanded
 | K-Nearest Neighbors | 0.721 | 0.649 | 0.444 | 0.527 | 0.756 |
 
 **Why Recall Matters:** In medical screening, missing a diabetic patient (false negative) is more dangerous than a false alarm (false positive). We prioritized recall over accuracy.
+
 
 ## 🛠️ Technologies Used
 
@@ -69,7 +77,9 @@ This project started as a tutorial implementation and was significantly expanded
 - **Deployment:** Streamlit
 - **Environment:** Jupyter Notebook
 
+
 ## 📁 Project Structure
+```
 diabetes-prediction-ml/
 │
 ├── screenshots/
@@ -83,6 +93,8 @@ diabetes-prediction-ml/
 ├── diabetes_models.pkl           # Saved trained models
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python dependencies
+```
+
 
 ## 🚀 Getting Started
 
@@ -98,6 +110,7 @@ The notebook will generate diabetes_models.pkl
 Running the Web Application
 bashstreamlit run app.py
 The application will open in your browser at http://localhost:8501
+
 
 
 ## 💡 Project Workflow
@@ -170,6 +183,8 @@ Model comparison interface
 Real-time predictions with any selected model
 Visual risk indicators and recommendations
 
+
+
 📝 Key Learnings
 Technical Skills
 
@@ -218,6 +233,8 @@ Features:
 - DiabetesPedigreeFunction: Diabetes pedigree function (genetic factor)
 - Age: Age in years
 
+
+
 🤝 Contributing
 This is a personal learning project, but feedback and suggestions are welcome! Feel free to:
 
@@ -225,10 +242,14 @@ Open issues for bugs or improvements
 Fork the repository for your own experiments
 Share insights or alternative approaches
 
+
+
 📧 Contact
 CHIBOUT Willen
 willen.chibout@gmail.com
 https://www.linkedin.com/in/willen-chibout/
+
+
 
 
 📄 License

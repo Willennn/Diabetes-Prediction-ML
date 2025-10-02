@@ -246,9 +246,7 @@ This is a personal learning project, but feedback and suggestions are welcome! F
 📧 Contact
 
 CHIBOUT Willen
-
 willen.chibout@gmail.com
-
 https://www.linkedin.com/in/willen-chibout/  
 
 

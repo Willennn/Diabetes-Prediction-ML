@@ -45,6 +45,7 @@ except Exception as e:
 
 # Title
 st.title("🏥 Diabetes Prediction System - Model Comparison")
+st.warning("⚠️ This model was trained exclusively on Pima Native American women. Predictions may not be accurate for male patients or other populations.")
 
 # Tabs for different sections
 tab1, tab2, tab3 = st.tabs(["📊 Model Comparison", "🔍 Make Prediction", "📈 About the Project"])
@@ -259,7 +260,8 @@ with tab3:
     - Streamlit for web deployment
     
     ### Dataset
-    PIMA Indians Diabetes Database (768 patients, 8 features)
+    PIMA Indians Diabetes Database (768 female patients, 8 features)
+    **Important Limitation:** This dataset contains only female patients from the Pima Native American community. The model's predictions are only valid for this demographic and should not be generalized to men or other populations.
     
     ⚠️ **Disclaimer:** This is an educational project, not for actual medical diagnosis.
     """)

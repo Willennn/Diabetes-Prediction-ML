@@ -219,13 +219,17 @@ In a real medical project, I would:
 ⚠️ Important Disclaimer
 This is an educational project demonstrating machine learning workflows. It is NOT intended for actual medical diagnosis. Always consult healthcare professionals for medical advice.
 The model's 56% recall means it misses 44% of diabetic patients, making it unsuitable for clinical use without significant improvements.
+This dataset contains data exclusively from Pima Native American women. The model used on male patients could be significantly less effective.
 
 
 📚 Dataset Information
-Source: PIMA Indians Diabetes Database
-Size: 768 patients
-Features: 8 medical measurements
-Target: Binary classification (diabetic/non-diabetic)
+**Source:** PIMA Indians Diabetes Database  
+**Size:** 768 female patients (Pima Native American women)  
+**Features:** 8 medical measurements  
+**Target:** Binary classification (diabetic/non-diabetic)
+
+
+
 Features:
 
 - Pregnancies: Number of pregnancies
